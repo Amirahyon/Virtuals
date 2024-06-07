@@ -555,9 +555,28 @@ video {
 }
 
 html, body {
-  background-color: #121212
+  background-color: #121212;
 }
 
 *{
   box-sizing: border-box
+}
+
+.button1{
+  background: linear-gradient(90deg, #f97316, #92391b);
+}
+
+.button2{
+  background: linear-gradient(to right, #f97316, #92391b);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.blu{
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px)
+}
+
+@media screen and (max-width:1024px) {
 }
