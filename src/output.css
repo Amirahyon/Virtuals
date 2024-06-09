@@ -556,6 +556,7 @@ video {
 
 html, body {
   background-color: #121212;
+  width: 100vw;
 }
 
 *{
@@ -576,7 +577,4 @@ html, body {
 .blu{
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px)
-}
-
-@media screen and (max-width:1024px) {
 }

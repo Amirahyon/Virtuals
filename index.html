@@ -8,166 +8,159 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <main class="bg-[#121212] text-white w-[100vw]">
-        <section class="blu w-[100vw] h-[4rem] bg-transparent border-b border-b-[#202020] fixed top-0">
-            <div class="font-medium w-[85%] max-sm:w-[93%] h-[100%] mx-auto pt-[0.2rem] flex justify-between items-center">
+    <main class="bg-[#121212] text-white w-[100vw] mx-auto">
+        <section class="blu w-[100%] h-[4rem] bg-transparent border-b border-b-[#202020] fixed">
+            <div class="font-medium xl:w-[85%] w-[96%] max-sm:w-[93%] h-[100%] mx-auto pt-[0.2rem] flex justify-between items-center">
                 <div class="flex gap-[0.5rem] items-center">
                     <img src="src/Images/logo.png" alt="logo" class="w-[2.5rem] h-[2.5rem]">
                     <p class="text-[1.25rem]">Virtuals</p>
                 </div>
                 <img src="src/Images/line.svg" alt="" class="w-[2rem] h-[2rem] lg:hidden">
-                <nav class="sm:flex w-[34%] justify-between font-normal text-[1.1rem] hidden">
+                <nav class="flex xl:w-[34%] w-[40%] justify-between font-normal text-[1.1rem] max-lg:hidden">
                     <a href="#feature">Features</a>
                     <a href="#workflow">Workflow</a>
                     <a href="#pricing">Pricing</a>
                     <a href="#testimonials">Testimonials</a>
                 </nav>
-                <div class="w-[21%] h-[2.5rem] sm:flex justify-between hidden">
+                <div class="xl:w-[21%] w-[25%] h-[2.5rem] flex justify-between max-lg:hidden">
                     <button class="border border-white rounded-[0.5rem] px-[0.5rem] h-[100%]">Sign In</button>
                     <button class="button1 bg-[#f97316] rounded-[0.5rem] px-[0.5rem] h-[100%]">Create an account</button>
                 </div>
             </div>
         </section>
 
-        <section class="pt-[12rem] w-[100vw] max-sm:pt-[9rem]">
-            <div class="text-center w-[65%] max-sm:w-[90%] mx-auto">
-                <div class="text-7xl max-sm:text-4xl">
+        <section class="pt-[12rem] w-[100%] max-sm:pt-[10rem] max-lg:pt-[8rem]">
+            <div class="text-center xl:w-[65%] w-[90%] mx-auto">
+                <div class="text-7xl max-lg:text-6xl max-sm:text-[2.3rem]">
                     <p>Virtuals build tools <span class="text-[#ee6917]">for </span><span class="button2">developers</span></p>
                 </div>
                 <div class="text-[1.32rem] mt-[2.5rem] max-sm:text-[1.34rem] text-[#737373]">Empower your creativity and bring your VR app ideas to life with our intuitive development tools. Get started today and turn your imagination into immersive reality!</div>
-                <div class="mt-[3rem] h-[3rem] max-sm:h-[3.5rem] w-[34%] max-sm:w-[16rem] mx-auto flex justify-between">
-                    <button class="button1 bg-[#857c76] text-[1.1rem] w-[35%] max-sm:text-base rounded-[0.5rem] font-medium px-[1rem] max-sm:px-[0.7rem] max-sm:text-left h-[100%]">Start for free</button>
-                    <button class="border border-white text-[1.1rem] w-[55%] max-sm:text-base rounded-[0.5rem] font-medium px-[1rem] max-sm:px-[0.7rem] h-[100%]">Documentation</button>
+                <div class="mt-[3rem] h-[3rem] max-s:h-[4rem] max-sm:h-[3.5rem] w-[34%] max-lg:w-[45%] max-sm:w-[80%] max-s:w-[90%] mx-auto flex justify-between">
+                    <button class="button1 bg-[#857c76] text-[1.1rem] max-sm:text-base rounded-[0.5rem] font-medium px-[1rem] max-sm:text-left h-[100%]">Start for free</button>
+                    <button class="border border-white text-[1.1rem] max-sm:text-base rounded-[0.5rem] font-medium px-[1rem] h-[100%]">Documentation</button>
                 </div>
             </div>
         </section>
 
-        <section class="flex justify-between w-[85%] max-sm:w-[93%] mx-auto h-[18%] mt-[6rem]">
+        <section class="flex justify-between xl:w-[85%] w-[96%] max-sm:w-[93%] mx-auto h-[18%] mt-[6rem]">
             <video src="src/Images/video1.mp4" class="border border-[#ee6917] rounded-[1rem] max-sm:rounded-[0.5rem] w-[49.4%] max-sm:w-[48%] h-[100%] object-cover" autoplay></video>
             <video src="src/Images/video2.mp4" class="border border-[#ee6917] rounded-[1rem] max-sm:rounded-[0.5rem] w-[49.4%] max-sm:w-[48%] h-[100%] object-cover" autoplay></video>
         </section>
 
-        <section class="w-[100vw]" id="feature">
-            <div class="w-[85%] mx-auto">
-                <p class="text-center bg-[#171717] text-[#ee6917] mt-[5rem] text-[1rem] w-[7%] max-sm:w-[5rem] mx-auto rounded-[0.6rem]">FEATURE</p>
-                <p class="text-6xl max-sm:text-4xl text-center mt-[4rem]">Easily build <span class="button2">your code</span></p>
-                <div class="flex max-sm:block justify-between items-center mt-[5rem]">
-                    <div class="w-[32%] max-sm:w-[83%] max-sm:mx-auto h-[13rem]">
-                        <div class="flex gap-[1rem] sm:items-center">
-                            <img src="src/Images/features/interface.svg" alt="" class="w-[2rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] h-[2rem] bg-[#171717] rounded-full p-[0.5rem]">
-                           <p class="text-xl max-sm:text-[1.3rem] font-medium">Drag-and-Drop Interface</p>
-                        </div>
-                        <div class="flex w-[79%] max-sm:w-[100%]">
-                            <div class="w-[30%]"></div>
-                            <p class="text-[#737373] w-[70%] mt-[1rem]">Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.</p>
-                        </div>
-                    </div>
-    
-                    <div class="w-[32%] max-sm:w-[83%] max-sm:mx-auto max-sm:mt-[5rem] h-[13rem]">
-                        <div class="flex gap-[1rem] sm:items-center">
-                            <img src="src/Images/features/fingerprint.svg" alt="" class="w-[2rem] h-[2rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
-                           <p class="text-xl max-sm:text-[1.3rem] font-medium">Multi-Platform Compatibility</p>
-                        </div>
-                        <div class="flex w-[85%] max-sm:w-[100%]">
-                            <div class="w-[17%] max-sm:w-[30%]"></div>
-                            <p class="text-[#737373] w-[80%] max-sm:w-[70%] mt-[1rem]">Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.</p>
+        <section class="w-[100%]" id="feature">
+            <div class="xl:w-[85%] w-[90%] mx-auto">
+                <p class="text-center bg-[#171717] text-[#ee6917] mt-[5rem] text-[1rem] xl:w-[7%] max-lg:w-[5rem] max-sm:w-[5rem] mx-auto rounded-[0.6rem]">FEATURE</p>
+                <p class="text-[4rem] max-sm:text-4xl text-center mt-[4rem] max-lg:mt-[2rem]">Easily build <span class="button2">your code</span></p>
+                <div class="flex flex-wrap max-sm:block justify-between items-center mt-[5rem] max-sm:mt-[3rem]">
+                    <div class="lg:w-[32%] max-lg:w-[48%] max-sm:w-[92%] max-sm:mx-auto max-sm:h-[13rem] h-[17rem] max-lg:h-[15rem]">
+                        <div class="flex gap-[1rem]">
+                            <img src="src/Images/features/interface.svg" alt="" class="w-[2.5rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
+                            <div class="text-left">
+                                <p class="text-2xl max-sm:text-[1.4rem] font-medium">Drag-and-Drop Interface</p>
+                                <p class="text-[#737373] max-sm:text-[1.1rem] ml-[0.5rem] w-[80%] max-sm:w-[100%] mt-[1.5rem]">Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.</p>
+                            </div>
                         </div>
                     </div>
     
-                    <div class="w-[32%] max-sm:w-[83%] max-sm:mx-auto max-sm:mt-[5rem] h-[13rem]">
-                        <div class="flex gap-[1rem] sm:items-center">
-                            <img src="src/Images/features/shield.svg" alt="" class="w-[2rem] h-[2rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
-                           <p class="text-xl max-sm:text-[1.3rem] font-medium">Built-in Templates</p>
+                    <div class="w-[32%] max-sm:w-[92%] max-lg:w-[48%] max-sm:mx-auto max-sm:h-[13rem] h-[17rem] max-lg:h-[15rem]">
+                        <div class="flex gap-[1rem]">
+                            <img src="src/Images/features/fingerprint.svg" alt="" class="w-[2.5rem] h-[2.5rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
+                            <div class="text-left">
+                                <p class="text-2xl max-sm:text-[1.4rem] font-medium">Multi-Platform Compatibility</p>
+                                <p class="text-[#737373] ml-[0.5rem] max-sm:text-[1.1rem] max-sm:w-[100%] w-[82%] mt-[1.5rem]">Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.</p>
+                            </div>
                         </div>
-                        <div class="flex w-[80%] max-sm:w-[100%]">
-                            <div class="w-[18%] max-sm:w-[31%]"></div>
-                            <p class="text-[#737373] w-[80%] max-sm:w-[68%] mt-[1rem]">Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.</p>
+                    </div>
+    
+                    <div class="w-[32%] max-lg:w-[48%] max-lg:h-[15rem] max-sm:w-[92%] max-sm:mt-[1rem] max-sm:mx-auto max-sm:h-[13rem] h-[17rem]">
+                        <div class="flex gap-[1rem]">
+                            <img src="src/Images/features/shield.svg" alt="" class="w-[2.5rem] h-[2.5rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
+                            <div class="text-left">
+                                <p class="text-2xl max-sm:text-[1.4rem] font-medium">Built-in Templates</p>
+                                <p class="text-[#737373] ml-[0.5rem] max-sm:text-[1.1rem] w-[82%] max-sm:w-[100%] mt-[1.5rem]">Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.</p>
+                            </div>
                         </div>
                     </div>
                     
-                    <div class="w-[32%] max-sm:w-[83%] max-sm:mx-auto max-sm:mt-[5rem] h-[13rem]">
-                        <div class="flex gap-[1rem] sm:items-center">
-                            <img src="src/Images/features/battery.svg" alt="" class="w-[2rem] h-[2rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
-                           <p class="text-xl max-sm:text-[1.3rem] font-medium">Real-Time Preview</p>
-                        </div>
-                        <div class="flex w-[85%] max-sm:w-[100%]">
-                            <div class="w-[17%] max-sm:w-[28%]"></div>
-                            <p class="text-[#737373] w-[80%] max-sm:w-[70%] mt-[1rem]">Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.</p>
+                    <div class="w-[32%] max-lg:w-[48%] max-lg:h-[15rem] max-sm:w-[92%] max-sm:mt-[1rem] max-sm:h-[13rem] max-sm:mx-auto h-[17rem]">
+                        <div class="flex gap-[1rem]">
+                            <img src="src/Images/features/battery.svg" alt="" class="w-[2.5rem] h-[2.5rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
+                            <div class="text-left">
+                                <p class="text-2xl max-sm:text-[1.4rem] font-medium">Real-Time Preview</p>
+                                <p class="text-[#737373] ml-[0.5rem] max-sm:text-[1.1rem] w-[88%] max-sm:w-[100%] mt-[1.5rem]">Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.</p>
+                            </div>
                         </div>
                     </div>
                     
-                    <div class="w-[32%] max-sm:w-[83%] max-sm:mx-auto max-sm:mt-[5rem] h-[13rem]">
-                        <div class="flex gap-[1rem] sm:items-center">
-                            <img src="src/Images/features/plug.svg" alt="" class="w-[2rem] h-[2rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
-                           <p class="text-xl max-sm:text-[1.3rem] font-medium">Collaboration Tools</p>
-                        </div>
-                        <div class="flex w-[85%] max-sm:w-[100%]">
-                            <div class="w-[17%] max-sm:w-[28%]"></div>
-                            <p class="text-[#737373] w-[82%] max-sm:w-[68%] mt-[1rem]">Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.</p>
+                    <div class="w-[32%] max-lg:w-[48%] max-lg:h-[15rem] max-sm:h-[13rem] max-sm:w-[92%] max-sm:mx-auto h-[17rem]">
+                        <div class="flex gap-[1rem]">
+                            <img src="src/Images/features/plug.svg" alt="" class="w-[2.5rem] h-[2.5rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
+                            <div class="text-left">
+                                <p class="text-2xl max-sm:text-[1.4rem] font-medium">Collaboration Tools</p>
+                                <p class="text-[#737373] ml-[0.5rem] max-sm:text-[1.1rem] w-[80%] max-sm:w-[100%] mt-[1.5rem]">Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.</p>
+                            </div>
                         </div>
                     </div>
     
-                    <div class="w-[32%] max-sm:w-[83%] max-sm:mx-auto max-sm:mt-[5rem] h-[13rem]">
-                        <div class="flex gap-[1rem] sm:items-center">
-                            <img src="src/Images/features/globe.svg" alt="" class="w-[2rem] h-[2rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
-                           <p class="text-xl max-sm:text-[1.3rem] font-medium">Analytics Dashboard</p>
-                        </div>
-                        <div class="flex w-[85%] max-sm:w-[100%]">
-                            <div class="w-[18%] max-sm:w-[28%]"></div>
-                            <p class="text-[#737373] w-[85%] max-sm:w-[65%] mt-[1rem]">Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.</p>
+                    <div class="w-[32%] max-lg:w-[48%] max-lg:h-[15rem] max-sm:h-[13rem] max-sm:w-[92%] max-sm:mt-[1rem] max-sm:mx-auto h-[17rem]">
+                        <div class="flex gap-[1rem]">
+                            <img src="src/Images/features/globe.svg" alt="" class="w-[2.5rem] h-[2.5rem] max-sm:w-[2.5rem] max-sm:h-[2.5rem] bg-[#171717] rounded-full p-[0.5rem]">
+                            <div class="text-left">
+                                <p class="text-2xl max-sm:text-[1.4rem] font-medium">Analytics Dashboard</p>
+                                <p class="text-[#737373] ml-[0.5rem] max-sm:text-[1.1rem] w-[85%] max-sm:w-[100%] mt-[1.5rem]">Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
     
-                <hr class="border-[#333333] mt-[5rem] max-sm:mt-[8rem]">
+                <hr class="border-[#333333] mt-[3rem] max-sm:mt-[3rem]">
             </div>
 
         </section>
 
-        <section class="mt-[5rem] w-[100vw]" id="workflow">
+        <section class="mt-[5rem] xl:w-[80%] w-[90%] mx-auto" id="workflow">
             <p class="text-center text-6xl max-sm:text-4xl">Accelerate your <span class="button2">coding workflow.</span></p>
-            <div class="w-[75%] mx-auto">
-                <div class="flex max-sm:block mt-[1rem] justify-between items-center">
-                    <img src="src/Images/code.jpg" alt="" class="w-[38.5rem] h-[38.5rem] max-sm:w-[17rem] max-sm:h-[17rem] max-sm:mx-auto">
-                    <div class="w-[36rem]">
-                        <div class="max-sm:w-[80%] max-sm:mt-[3rem]">
+            <div class="">
+                <div class="lg:flex block mt-[1rem] justify-between xl:items-center">
+                    <img src="src/Images/code.jpg" alt="" class="xl:w-[38.5rem] lg:w-[30rem] lg:h-[30rem] w-[100%] h-[100%] xl:h-[38.5rem] max-sm:mx-auto">
+                    <div class="xl:w-[36rem] w-[45rem] max-sm:w-[100%] max-sm:ml-[2rem] max-xl:mt-[1rem] max-lg:mt-[3rem]">
+                        <div>
                             <div class="flex gap-[1rem]">
                                 <img src="src/Images/check.svg" alt="" class="w-[2.5rem] h-[2.5rem] bg-[#171717] rounded-full p-[0.4rem]">
-                                <p class="text-[1.4rem] max-sm:text-[1.3rem] max-sm:w-[30%] font-medium">Code merge made easy</p>
-                            </div>
-                            <div class="flex w-[100%] max-sm:mt-[1rem]">
-                                <div class="w-[3.5rem]"></div>
-                                <p class="text-[#737373] text-[1.1rem] w-[85%] max-sm:w-[12rem]">Track the performance of your VR apps and gain insights into user behavior.</p>
+                                <div>
+                                    <p class="text-[1.4rem] max-sm:text-[1.3rem] font-medium">Code merge made easy</p>
+                                    <p class="text-[#737373] text-[1.1rem] w-[85%] max-sm:mt-[0.5rem]">Track the performance of your VR apps and gain insights into user behavior.</p>
+                                </div>
                             </div>
                         </div>
                         <div>
                             <div class="flex gap-[1rem] pt-[3.5rem]">
                                 <img src="src/Images/check.svg" alt="" class="w-[2.5rem] h-[2.5rem] bg-[#171717] rounded-full p-[0.4rem]">
-                                <p class="text-[1.4rem] max-sm:text-[1.3rem] max-sm:w-[30%] font-medium">Review code without worry</p>
-                            </div>
-                            <div class="flex w-[100%] max-sm:mt-[1rem]">
-                                <div class="w-[3.5rem]"></div>
-                                <p class="text-[#737373] text-[1.1rem] w-[85%] max-sm:w-[12rem]">Track the performance of your VR apps and gain insights into user behavior.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex gap-[1rem] pt-[3.5rem]">
-                                <img src="src/Images/check.svg" alt="" class="w-[2rem] h-[2rem] bg-[#171717] rounded-full p-[0.3rem]">
-                                <p class="text-[1.4rem] max-sm:text-[1.3rem] max-sm:w-[30%] font-medium">AI Assistance to reduce time</p>
-                            </div>
-                            <div class="flex w-[100%] max-sm:mt-[1rem]">
-                                <div class="w-[3.1rem]"></div>
-                                <p class="text-[#737373] text-[1.1rem] w-[85%] max-sm:w-[12rem]">Track the performance of your VR apps and gain insights into user behavior.</p>
+                                <div>
+                                    <p class="text-[1.4rem] max-sm:text-[1.3rem] font-medium">Review code without worry</p>
+                                    <p class="text-[#737373] text-[1.1rem] w-[85%] max-sm:mt-[0.5rem]">Track the performance of your VR apps and gain insights into user behavior.</p>
+                                </div>
                             </div>
                         </div>
                         <div>
                             <div class="flex gap-[1rem] pt-[3.5rem]">
-                                <img src="src/Images/check.svg" alt="" class="w-[2rem] h-[2rem] bg-[#171717] rounded-full p-[0.3rem]">
-                                <p class="text-[1.4rem] max-sm:text-[1.3rem] max-sm:w-[30%] font-medium">Share work in minutes</p>
+                                <img src="src/Images/check.svg" alt="" class="w-[2.5rem] h-[2.5rem] bg-[#171717] rounded-full p-[0.4rem]">
+                                <div>
+                                    <p class="text-[1.4rem] max-sm:text-[1.3rem] font-medium">AI Assistance to reduce time</p>
+                                    <p class="text-[#737373] text-[1.1rem] w-[85%] max-sm:mt-[0.5rem]">Track the performance of your VR apps and gain insights into user behavior.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex gap-[1rem] pt-[3.5rem]">
+                                <img src="src/Images/check.svg" alt="" class="w-[2.5rem] h-[2.5rem] bg-[#171717] rounded-full p-[0.4rem]">
+                                <div>
+                                    <p class="text-[1.4rem] max-sm:text-[1.3rem] font-medium">Share work in minutes</p>
+                                    <p class="text-[#737373] text-[1.1rem] w-[85%] max-sm:mt-[0.5rem]">Track the performance of your VR apps and gain insights into user behavior.</p>
+                                </div>
                             </div>
                             <div class="flex w-[100%] max-sm:mt-[1rem]">
                                 <div class="w-[3.1rem]"></div>
-                                <p class="text-[#737373] text-[1.1rem] w-[85%] max-sm:w-[12rem]">Track the performance of your VR apps and gain insights into user behavior.</p>
                             </div>
                         </div>
                     </div>
@@ -175,11 +168,11 @@
             </div>
         </section>
 
-        <section class="w-[100vw] mt-[5rem] max-sm:mt-[6rem]" id="pricing">
+        <section class="w-[100%] xl:mt-[5rem] mt-[8rem] max-sm:mt-[6rem]" id="pricing">
             <div class="w-[90%] mx-auto">
                 <p class="text-6xl max-sm:text-4xl text-center">Pricing</p>
                 <div class="flex flex-wrap max-sm:block justify-between mt-[2.5rem]">
-                    <div class="border border-[#333333] rounded-[1.5rem] w-[32%] max-sm:w-[90%] max-sm:mx-auto py-[3rem]">
+                    <div class="border border-[#333333] rounded-[1.5rem] max-sm:rounded-[0.9rem] w-[32%] max-lg:w-[49%] max-sm:w-[90%] max-sm:mx-auto py-[3rem]">
                         <p class="w-[80%] mx-[auto] text-4xl">Free</p>
                         <div class="flex gap-[0.5rem] items-baseline w-[80%] mx-[auto] mt-[1.5rem]">
                             <p class="text-4xl">$0</p>
@@ -205,7 +198,7 @@
                             <button class="font-medium text-xl w-[100%] h-[100%] hover:bg-[#5e2512]">Subscribe</button>
                         </div>
                     </div>
-                    <div class="border border-[#333333] rounded-[1.5rem] w-[32%] max-sm:w-[90%] max-sm:mx-auto max-sm:mt-[1rem] py-[3rem]">
+                    <div class="border border-[#333333] rounded-[1.5rem] max-sm:rounded-[0.9rem] w-[32%] max-lg:w-[49%] max-sm:w-[90%] max-sm:mx-auto max-sm:mt-[1rem] py-[3rem]">
                         <p class="w-[80%] mx-[auto] text-4xl">Pro <span class="button2 text-xl">(Most Popular)</span></p>
                         <div class="flex gap-[0.5rem] items-baseline w-[80%] mx-[auto] mt-[1.5rem]">
                             <p class="text-4xl">$10</p>
@@ -231,7 +224,7 @@
                             <button class="text-xl font-medium w-[100%] h-[100%] hover:bg-[#5e2512]">Subscribe</button>
                         </div>
                     </div>
-                    <div class="border border-[#333333] rounded-[1.5rem] w-[32%] max-sm:w-[90%] max-sm:mx-auto max-sm:mt-[1rem] py-[3rem]">
+                    <div class="border border-[#333333] rounded-[1.5rem] max-sm:rounded-[0.9rem] w-[32%] max-lg:w-[49%] max-sm:w-[90%] max-sm:mx-auto max-lg:mt-[1rem] py-[3rem]">
                         <p class="w-[80%] mx-[auto] text-4xl">Enterprise</p>
                         <div class="flex gap-[0.5rem] items-baseline w-[80%] mx-[auto] mt-[1.5rem]">
                             <p class="text-4xl">$200</p>
@@ -261,14 +254,14 @@
             </div>
         </section>
 
-        <section class="w-[100vw] mt-[5rem]" id="testimonials">
-            <div class="w-[90%] mx-auto">
+        <section class="w-[90%] mx-auto mt-[5rem]" id="testimonials">
+            <div class="">
                 <p class="text-6xl max-sm:text-4xl text-center">What People are saying</p>
-                <div class="flex flex-wrap max-sm:block justify-between items-start mt-[5rem] max-sm:mt-[3rem]">
-                    <div class="w-[32%] max-sm:w-[85%] max-sm:mx-auto bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem] max-sm:rounded-[0.5rem]">
-                        <p class="w-[90%] max-sm:w-[100%] text-[1.2rem] text-[#737373]">I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.</p>
+                <div class="flex flex-wrap max-sm:block max-sm:w-[100%] mx-auto justify-between items-start mt-[5rem] max-sm:mt-[3rem]">
+                    <div class="w-[32%] max-lg:w-[48%] max-sm:w-[85%] max-sm:mx-auto bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem] max-sm:rounded-[0.5rem]">
+                        <p class="lg:w-[90%] w-[100%] text-[1.2rem] text-[#737373]">I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.</p>
                         <div class="flex gap-[0.7rem] items-center mt-[2rem]">
-                            <img src="src/Images/user1.jpg" alt="" class="w-[4rem] h-[4rem] max-sm:w-[3rem] max-sm:h-[3rem] bg-[#171717] rounded-full p-[0.5rem] max-sm:p-0 border border-white">
+                            <img src="src/Images/user1.jpg" alt="" class="lg:w-[4rem] lg:h-[4rem] w-[3rem] h-[3rem] bg-[#171717] rounded-full max-sm:p-0 border border-white">
                             <div>
                                 <p class="text-[1.1rem]">John Doe</p>
                                 <p class="italic text-[#737373]">Stellar Solutions</p>
@@ -276,10 +269,10 @@
                         </div>
                     </div>
     
-                    <div class="w-[32%] max-sm:w-[85%] max-sm:mx-auto max-sm:mt-[1rem] max-sm:rounded-[0.5rem] bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem]">
-                        <p class="w-[90%] max-sm:w-[93%] text-[1.1rem] text-[#737373]">I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life</p>
+                    <div class="w-[32%] max-lg:w-[48%] max-sm:w-[85%] max-sm:mx-auto max-sm:mt-[1rem] max-sm:rounded-[0.5rem] bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem]">
+                        <p class="lg:w-[90%] max-lg:w-[100%] max-sm:w-[93%] text-[1.2rem] text-[#737373]">I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life</p>
                         <div class="flex gap-[0.7rem] sm:items-center mt-[2rem]">
-                            <img src="src/Images/user2.jpg" alt="" class="w-[4rem] h-[4rem] max-sm:w-[3rem] max-sm:h-[3rem] max-sm:p-0 bg-[#171717] rounded-full p-[0.5rem] border border-white">
+                            <img src="src/Images/user2.jpg" alt="" class="lg:w-[4rem] lg:h-[4rem] w-[3rem] h-[3rem] max-sm:p-0 bg-[#171717] rounded-full border border-white">
                             <div>
                                 <p class="text-[1.1rem]">Jane Smith</p>
                                 <p class="italic text-[#737373]">Blue Horizon Technologies</p>
@@ -287,10 +280,10 @@
                         </div>
                     </div>
     
-                    <div class="w-[32%] max-sm:w-[85%] max-sm:mx-auto max-sm:mt-[1rem] max-sm:rounded-[0.5rem] bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem] mb-[1rem]">
-                        <p class="w-[89%] max-sm:w-[92%] text-[1.1rem] text-[#737373]">Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.</p>
+                    <div class="w-[32%] max-lg:w-[48%] max-sm:w-[85%] max-lg:mt-[1rem] max-sm:mx-auto max-sm:rounded-[0.5rem] bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem] mb-[1rem]">
+                        <p class="lg:w-[89%] max-lg:w-[100%] max-sm:w-[92%] text-[1.1rem] text-[#737373]">Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.</p>
                         <div class="flex gap-[0.7rem] sm:items-center mt-[2rem]">
-                            <img src="src/Images/user3.jpg" alt="" class="w-[4rem] h-[4rem] max-sm:w-[3rem] max-sm:h-[3rem] max-sm:p-0 bg-[#171717] rounded-full p-[0.5rem] border border-white">
+                            <img src="src/Images/user3.jpg" alt="" class="lg:w-[4rem] lg:h-[4rem] w-[3rem] h-[3rem] max-sm:p-0 bg-[#171717] rounded-full border border-white">
                             <div>
                                 <p class="text-[1.1rem]">David Johnson</p>
                                 <p class="italic text-[#737373]">Quantum Innovations</p>
@@ -298,10 +291,10 @@
                         </div>
                     </div>
                     
-                    <div class="w-[32%] max-sm:w-[85%] max-sm:mx-auto max-sm:mt-[1rem] max-sm:rounded-[0.5rem] bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem]">
-                        <p class="w-[89%] max-sm:w-[92%] text-[1.1rem] text-[#737373]">Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!</p>
+                    <div class="w-[32%] max-lg:w-[48%] max-sm:w-[85%] max-sm:mx-auto max-lg:mt-[1rem] max-sm:rounded-[0.5rem] bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem]">
+                        <p class="lg:w-[89%] max-lg:w-[100%] max-sm:w-[92%] text-[1.1rem] text-[#737373]">Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!</p>
                         <div class="flex gap-[0.7rem] sm:items-center mt-[2rem]">
-                            <img src="src/Images/user4.jpg" alt="" class="w-[4rem] h-[4rem] max-sm:w-[3rem] max-sm:h-[3rem] max-sm:p-0 bg-[#171717] border border-white rounded-full p-[0.5rem]">
+                            <img src="src/Images/user4.jpg" alt="" class="lg:w-[4rem] lg:h-[4rem] w-[3rem] h-[3rem] max-sm:p-0 bg-[#171717] border border-white rounded-full">
                             <div>
                                 <p class="text-[1.1rem]">Ronee Brown</p>
                                 <p class="italic text-[#737373]">Fusion Dynamics</p>
@@ -309,10 +302,10 @@
                         </div>
                     </div>
                     
-                    <div class="w-[32%] max-sm:w-[85%] max-sm:mx-auto max-sm:mt-[1rem] max-sm:rounded-[0.5rem] bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem]">
-                        <p class="w-[87%] max-sm:w-[95%] text-[1.1rem] text-[#737373]">I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.</p>
+                    <div class="w-[32%] max-lg:w-[48%] max-lg:mt-[1rem] max-sm:w-[85%] max-sm:mx-auto max-sm:rounded-[0.5rem] bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem]">
+                        <p class="lg:w-[87%] max-lg:w-[100%] max-sm:w-[95%] text-[1.1rem] text-[#737373]">I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.</p>
                         <div class="flex gap-[0.7rem] sm:items-center mt-[2rem]">
-                            <img src="src/Images/user5.jpg" alt="" class="w-[4rem] h-[4rem] max-sm:w-[3rem] max-sm:h-[3rem] max-sm:p-0 border border-white bg-[#171717] rounded-full p-[0.5rem]">
+                            <img src="src/Images/user5.jpg" alt="" class="lg:w-[4rem] lg:h-[4rem] w-[3rem] h-[3rem] max-sm:p-0 border border-white bg-[#171717] rounded-full">
                             <div>
                                 <p class="text-[1.1rem]">Michael Wilson</p>
                                 <p class="italic text-[#737373]">Visionary Creations</p>
@@ -320,10 +313,10 @@
                         </div>
                     </div>
     
-                    <div class="w-[32%] max-sm:w-[85%] max-sm:mx-auto max-sm:mt-[1rem] max-sm:rounded-[0.5rem] bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem]">
-                        <p class="w-[85%] max-sm:w-[93%] text-[1.1rem] text-[#737373]">The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.</p>
+                    <div class="w-[32%] max-lg:w-[48%] max-sm:w-[85%] max-sm:mx-auto max-lg:mt-[1rem] max-sm:rounded-[0.5rem] bg-[#171717] border border-[#333333] p-[1.5rem] rounded-[1rem]">
+                        <p class="lg:w-[85%] max-lg:w-[100%] max-sm:w-[93%] text-[1.1rem] text-[#737373]">The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.</p>
                         <div class="flex gap-[0.7rem] items-center mt-[2rem]">
-                            <img src="src/Images/user6.jpg" alt="" class="w-[4rem] h-[4rem] max-sm:w-[3rem] max-sm:h-[3rem] max-sm:p-0 bg-[#171717] border border-white rounded-full p-[0.5rem]">
+                            <img src="src/Images/user6.jpg" alt="" class="lg:w-[4rem] lg:h-[4rem] w-[3rem] h-[3rem] max-sm:p-0 bg-[#171717] border border-white rounded-full">
                             <div>
                                 <p class="text-[1.1rem]">Emily Davis</p>
                                 <p class="italic text-[#737373]">Synergy Systems</p>
@@ -337,9 +330,9 @@
 
         </section>
 
-        <section class="w-[100vw] py-[2rem]">
+        <section class="w-[100%] py-[2rem]">
             <div class="w-[90%] mx-auto flex flex-wrap justify-between">
-                <div class="w-[30%] max-sm:w-[48%] text-[#aeaeae] font-semibold"> 
+                <div class="w-[30%] max-lg:w-[48%] text-[#aeaeae] font-semibold"> 
                     <p class="text-white mb-[1rem]">Resources</p>
                     <p class="mb-[0.5rem]">Getting Started</p>
                     <p class="mb-[0.5rem]">Documentation</p>
@@ -347,7 +340,7 @@
                     <p class="mb-[0.5rem]">API Reference</p>
                     <p>Community Forums</p>
                 </div>
-                <div class="w-[30%] max-sm:w-[45%] text-[#aeaeae] font-semibold"> 
+                <div class="w-[30%] max-lg:w-[45%] text-[#aeaeae] font-semibold"> 
                     <p class="text-white mb-[1rem]">Platform</p>
                     <p class="mb-[0.5rem]">Features</p>
                     <p class="mb-[0.5rem]">Supported Devices</p>
@@ -355,7 +348,7 @@
                     <p class="mb-[0.5rem]">Downloads</p>
                     <p>Release Notes</p>
                 </div>
-                <div class="w-[30%] max-sm:w-[49%] max-sm:mt-[1rem] text-[#aeaeae] font-semibold"> 
+                <div class="w-[30%] max-lg:w-[48%] max-lg:mt-[1rem] text-[#aeaeae] font-semibold"> 
                     <p class="text-white mb-[1rem]">Community</p>
                     <p class="mb-[0.5rem]">Events</p>
                     <p class="mb-[0.5rem]">Meetups</p>

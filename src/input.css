@@ -2,6 +2,7 @@
 
 html, body {
     background-color: #121212;
+    width: 100vw;
 }
 
 *{
@@ -22,8 +23,5 @@ html, body {
     backdrop-filter: blur(15px)
 }
 
-@media screen and (max-width:1024px) {
-    
-}
 @tailwind components;
 @tailwind utilities;
