@@ -10,12 +10,14 @@
 <body>
     <main class="bg-[#121212] text-white w-[100vw] mx-auto">
         <section class="blu w-[100%] h-[4rem] bg-transparent border-b border-b-[#202020] fixed">
-            <div class="font-medium xl:w-[85%] w-[96%] max-sm:w-[93%] h-[100%] mx-auto pt-[0.2rem] flex justify-between items-center">
+            <div class="font-medium xl:w-[85%] w-[96%] max-sm:w-[75%] h-[100%] mx-auto pt-[0.2rem] flex justify-between items-center">
                 <div class="flex gap-[0.5rem] items-center">
                     <img src="src/Images/logo.png" alt="logo" class="w-[2.5rem] h-[2.5rem]">
                     <p class="text-[1.25rem]">Virtuals</p>
                 </div>
-                <img src="src/Images/line.svg" alt="" class="w-[2rem] h-[2rem] lg:hidden">
+                <div class="icon lg:hidden">
+                    <img src="src/Images/line.svg" alt="" class="line-icon w-[2rem] h-[2rem] ">
+                </div>
                 <nav class="flex xl:w-[34%] w-[40%] justify-between font-normal text-[1.1rem] max-lg:hidden">
                     <a href="#feature">Features</a>
                     <a href="#workflow">Workflow</a>
@@ -25,6 +27,29 @@
                 <div class="xl:w-[21%] w-[25%] h-[2.5rem] flex justify-between max-lg:hidden">
                     <button class="border border-white rounded-[0.5rem] px-[0.5rem] h-[100%]">Sign In</button>
                     <button class="button1 bg-[#f97316] rounded-[0.5rem] px-[0.5rem] h-[100%]">Create an account</button>
+                </div>
+            </div>
+            <div class="menu w-[100%] lg:hidden bg-[#121212] h-[22rem]">
+                <img src="src/Images/close.svg" alt="" class="close w-[3rem] h-[2.5rem] right-[3rem] top-[1rem] fixed md:right-[0.5rem]">
+                <div class="block fixed w-[100%]">
+                    <ul class="list-none w-[30%] md:w-[10%] mx-auto text-[1.1rem]">
+                        <li class="mt-[2rem]">
+                            <a href="#feature">Features</a>
+                        </li>
+                        <li class="mt-[2rem]">
+                            <a href="#workflow">Workflow</a>
+                        </li>
+                        <li class="mt-[2rem]">
+                            <a href="#pricing">Pricing</a>
+                        </li>
+                        <li class="mt-[2rem]">
+                            <a href="#testimonials">Testimonials</a>
+                        </li>
+                    </ul>
+                    <div class="w-[65%] mx-auto h-[3.5rem] flex justify-between mt-[2rem] md:w-[40%]">
+                        <button class="text-xl border border-white rounded-[0.5rem] px-[0.5rem] h-[100%]">Sign In</button>
+                        <button class="button1 text-xl  rounded-[0.5rem] px-[0.5rem] h-[100%]">Create an account</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -359,5 +384,6 @@
             </div>
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
